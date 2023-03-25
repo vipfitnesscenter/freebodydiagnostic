@@ -22,13 +22,22 @@ width:100%;
 .topbar
 {
     height:100px;
-    width:1000px;
+    width:1480px;
     position: relative;
     bottom: 500px; 
 }
 
+.homepage
+{
+    background-color: white;
+    color:black;
+    transition: opacity 1s;
+}
 
-
+homepage:hover
+{
+    opacity:0.5;
+}
 </style>
 
 
@@ -38,7 +47,7 @@ width:100%;
 <body>
 <div class="topbar">
 <img src="https://www.macmillandictionary.com/external/slideshow/full/White_full.png">
-<button class="homepage">Home</button>
+<button class="homepage" onclick="window.open('https://vipfitnesscenter.com/')">Home</button>
 </div>
 <iframe src="https://calendy.com/vipfitnesscenter/free-body-diagnostic?month=2023-03" class="Frame">
 
